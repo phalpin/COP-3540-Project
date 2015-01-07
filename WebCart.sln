@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. NetTask", "NetTask\10. NetTask.csproj", "{881E1E50-9DBE-4FB6-A494-4E24414B12AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0. WebCart.Core", "WebCart.Core\0. WebCart.Core.csproj", "{453E4E45-DD46-4075-B4CC-66F1EE746F88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{881E1E50-9DBE-4FB6-A494-4E24414B12AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881E1E50-9DBE-4FB6-A494-4E24414B12AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881E1E50-9DBE-4FB6-A494-4E24414B12AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881E1E50-9DBE-4FB6-A494-4E24414B12AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453E4E45-DD46-4075-B4CC-66F1EE746F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453E4E45-DD46-4075-B4CC-66F1EE746F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453E4E45-DD46-4075-B4CC-66F1EE746F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453E4E45-DD46-4075-B4CC-66F1EE746F88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

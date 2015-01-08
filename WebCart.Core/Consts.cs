@@ -11,7 +11,7 @@ namespace WebCart.Core
         public const string DB_NAME = "shoppingCart";
         public const string DB_ADDRESS = "localhost";
         public const string DB_USERNAME = "root";
-        public const string DB_PASSWORD = "password";
+        public const string DB_PASSWORD = "temporary";
         public const int DB_TIMEOUT = 3600;
     }
 }

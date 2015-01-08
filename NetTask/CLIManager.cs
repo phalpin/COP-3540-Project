@@ -1,4 +1,5 @@
 ﻿using NetLog;
+using NetTask.Tasks.Database;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,9 @@ namespace NetTask
         public static void Run(params string[] args)
         {
             var test = AvailableTasks;
+
+            var task = new createDatabase();
+            task.Execute();
         }
 
     }

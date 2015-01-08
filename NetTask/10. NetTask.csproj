@@ -33,13 +33,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data">
-      <HintPath>..\WebCart\packages\MySql.Data.6.9.5\lib\net45\MySql.Data.dll</HintPath>
+      <HintPath>..\packages\MySql.Data.6.9.5\lib\net45\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="NetLog.Client">
-      <HintPath>..\WebCart\packages\NetLog.Client.1.0.0.3\lib\net45\NetLog.Client.dll</HintPath>
+      <HintPath>..\packages\NetLog.Client.1.0.0.3\lib\net45\NetLog.Client.dll</HintPath>
     </Reference>
     <Reference Include="NetLog.Core">
-      <HintPath>..\WebCart\packages\NetLog.Client.1.0.0.3\lib\net45\NetLog.Core.dll</HintPath>
+      <HintPath>..\packages\NetLog.Client.1.0.0.3\lib\net45\NetLog.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,9 +54,12 @@
     <Compile Include="Attributes\ExcludeTaskAttribute.cs" />
     <Compile Include="CLIManager.cs" />
     <Compile Include="ExtensionMethods\MySqlConnectionExtensions.cs" />
+    <Compile Include="ExtensionMethods\SqlColumnExtensions.cs" />
+    <Compile Include="ExtensionMethods\SQLDataTypeExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReflectionUtils.cs" />
+    <Compile Include="SqlColumn.cs" />
     <Compile Include="TaskBase\BaseTask.cs" />
     <Compile Include="TaskBase\IBaseTask.cs" />
     <Compile Include="TaskBase\MySQLTask.cs" />
